@@ -1,16 +1,10 @@
-import React from "react";
-import AboutSection from "../components/AboutSection";
-import Community from "../components/Community";
-import Discover from "../components/Discover";
-import Hero from "../components/Hero";
-import MarketPlace from "../components/MarketPlace";
-import NavComponent from "../components/NavComponent";
 
-const NftCard = () => {
+
+export const NftCard = () => {
   return (
-    <div className="border-2 min-h-[400px] py-4 max-w-[330px]">
+    <div className="border-2 min-h-[300px] py-4 max-w-[250px]">
       <div className="relative -right-6 -top-10">
-        <img src="/Rectangle9.png" />
+        <img src="Rectangle9.png" alt="title" />
       </div>
       <div className="px-6 -mt-4">
         <h1 className="text-2xl">Heart & Sol</h1>
@@ -30,11 +24,11 @@ const NftCard = () => {
                 fill="white"
               />
             </svg>
-            <h1 className="pl-2 ">0.3234</h1>
+            <h1 className="pl-2 ">0.3234 </h1>
           </div>
-          <h1 className="text-xl">16 tokens</h1>
+          {/* <h1 className="text-xl">16 tokens </h1> */}
         </div>
-        <div className="flex justify-between">
+        {/* <div className="flex justify-between">
           <button className="border-[1px]  rounded-2xl flex px-[.6em] py-[.7em]  items-center ">
             <h1 className="font-bold">PLAY NOW</h1>
             <div className=" ml-2">
@@ -59,21 +53,8 @@ const NftCard = () => {
           <button className="buttons rounded-2xl flex px-[1.4em] py-[.7em]  items-center font-bold">
             BUY NFT
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
 };
-
-export default function index() {
-  return (
-    <div>
-      <NavComponent />
-      <Hero />
-      <AboutSection />
-      <MarketPlace />
-      <Community />
-      <Discover />
-    </div>
-  );
-}

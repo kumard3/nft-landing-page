@@ -1,18 +1,17 @@
 import Link from "next/link";
 
-
 export default function Hero() {
   return (
-    <div className="min-h-screen ">
+    <div className="min-h-screen  ">
       <div className="relative ">
         <div className="absolute  -z-10 top-[-50rem] -left-[40rem] ">
           <img src="Group47.svg" className="relative top-[20rem]" />
         </div>
       </div>
 
-      <div className="flex flex-wrap w-full  justify-between  py-[2rem] z-50 ">
-        <div className="flex mt-10 flex-col  dark:text-white sm:text-center lg:max-w-5xl lg:text-left pl-7  rounded-sm  ">
-          <h1 className="hero-title text-[70px] font-bold leading-none ">
+      <div className="flex  w-full flex-wrap xl:flex-nowrap container mx-auto  justify-between  py-[2rem] z-50 ">
+        <div className="flex mt-10 flex-col  dark:text-white sm:text-center  lg:text-left pl-7  rounded-sm  ">
+          <h1 className="hero-title text-[80px] font-bold leading-none ">
             Music for NFT creators.
           </h1>
 
@@ -26,20 +25,20 @@ export default function Hero() {
             careers.{" "}
           </p>
           <div className="flex  items-center sm:justify-center lg:justify-start ">
-            <Link href="/components" passHref>
-              <span className=" flex flex-col justify-start ml-5  text-lg font-bold rounded  text-white ">
+            <>
+              <button className=" flex flex-col justify-start ml-5  text-lg font-bold rounded  text-white ">
                 Powered By
                 <img src="logo-black1.png" />
-              </span>
-            </Link>
-            <Link href="/templates" passHref>
-              <span className="px-6 py-3 min-h-[3rem] border-2 ml-10  text-lg font-bold rounded glass transition-colors duration-500 text-white ">
+              </button>
+            </>
+            <>
+              <button className="px-6 py-3 min-h-[3rem] border-2 ml-10  text-lg font-bold rounded-3xl glass transition-colors duration-500 text-white ">
                 Discover More {`>`}
-              </span>
-            </Link>
+              </button>
+            </>
           </div>
         </div>
-        <div className="h-[44rem] relative -top-20">
+        <div className="h-[4 relative xl:absolute xl:top-16 right-0">
           <img src="image5.png" className="object-fit h-full" />
         </div>
       </div>
