@@ -67,13 +67,19 @@ const NftCard = () => {
 
 export default function index() {
   return (
-    <div>
+    <>
+      <div className="relative ">
+        <div className="absolute  -z-10 top-[-50rem] -left-[40rem] ">
+          <img src="Group47.svg" className="relative top-[20rem]" />
+        </div>
+      </div>
+
       <NavComponent />
       <Hero />
       <AboutSection />
       <MarketPlace />
       <Community />
       <Discover />
-    </div>
+    </>
   );
 }

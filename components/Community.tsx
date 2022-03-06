@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Community() {
   return (
-    <>
-      <div className="absolute  -z-10 right-0  top-[270vh]">
+    <div className="my-[10rem]">
+      <div className="absolute  -z-10 right-0  top-[280vh]">
         <img src="Ellipse18.svg" className="relative " />
       </div>
       <div className="flex flex-col container mx-auto">
@@ -37,6 +37,6 @@ export default function Community() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
