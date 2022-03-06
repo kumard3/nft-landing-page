@@ -60,7 +60,7 @@ export const NftCard = () => {
 };
 export const NftCardWithButton = () => {
   return (
-    <div className="border-2 h-[430px] py-4 m-10  w-[350px]">
+    <div className="border-2 h-[430px] py-4 m-10  max-w-[350px]">
       <div className="relative -right-6 -top-10">
         <img src="Rectangle9.png" alt="title" />
       </div>

@@ -6,7 +6,7 @@ export default function Hero() {
 
       <div className="flex  w-full flex-wrap xl:flex-nowrap container mx-auto  justify-between  py-[2rem] z-50 ">
         <div className="flex mt-10 flex-col  dark:text-white sm:text-center  lg:text-left pl-7  rounded-sm  ">
-          <h1 className="hero-title text-[80px] font-bold leading-none ">
+          <h1 className="hero-title text-5xl sm:text-[80px]font-bold leading-none ">
             Music for NFT creators.
           </h1>
 
