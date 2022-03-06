@@ -4,7 +4,7 @@ import { NftCardWithButton } from "./NftCard";
 export default function Discover() {
   return (
     <div className="flex flex-col my-10  px-10 ">
-      <div className="flex ">
+      <div className="flex py-10 ">
         <h1 className="text-5xl sm:text-[80px]">Discover Music NFT</h1>
       </div>
       <div className="flex flex-wrap justify-between  items-center ">

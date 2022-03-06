@@ -27,7 +27,7 @@ export default function MarketPlace() {
                 </div>
               </div>
             </div>
-            <div className="max-w-2xl my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
+            <div className="max-w-2xl my-8 space-y-4  xl:col-span-2 text-left">
               <h2 className="text-5xl sm:text-[80px] font-bold">Music NFT Marketplace</h2>
               <p className="">
                 Create your first music NFTs with NFT market for musicians.
