@@ -5,11 +5,11 @@ interface Props {
 export const NftCard = ({ image }: Props) => {
   return (
     <div className="border-2 min-h-[300px] sm:py-4 max-w-[250px] rounded-xl  sm:rounded-md ">
-      <div className="sm:bg-black sm:px-3 sm:py-2 sm:-right-8 sm:-top-[50px] relative   ">
+      <div className="sm:-right-8 sm:-top-[50px] relative  ">
         <img
           src={image}
           alt="title"
-          className="rounded-t-xl sm:rounded-none "
+          className="rounded-t-xl sm:rounded-lg w-full "
         />
       </div>
       <div className="px-5 py-3 sm:py-0  sm:-mt-4">

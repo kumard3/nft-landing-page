@@ -4,14 +4,14 @@ import { NftCard } from "./NftCard";
 export default function MarketPlace() {
   return (
     <>
-      <section className="">
+      <section>
         <div className="container px-6 py-12 mx-auto">
           <div className="grid items-center gap-4 xl:grid-cols-5">
             <div className="p-6 xl:col-span-3">
               <div className="grid md:grid-cols-2">
                 <div className="grid content-center ml-[3vw] relative -mt-[10rem]">
-                  <div className="py-10">
-                    <NftCard image="top1.png" />
+                  <div className="py-10" >
+                    <NftCard image="top1.png"   />
                   </div>
                   <div className="py-10">
                     <NftCard image="top2.png" />
